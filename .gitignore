@@ -35,17 +35,6 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-<<<<<<< HEAD
-.vscode
-
-# Compiled Code #
-#################
-*.pyc
-
-# Project Specific #
-####################
-Functions/__pycache__/
-=======
 
 # IDE Specific#
 ###############
@@ -59,4 +48,3 @@ functions/__pycache__/
 #########################
 *.pyc
 
->>>>>>> 414b8373f9d3d2f653496c40ed2843113b3f2d14
