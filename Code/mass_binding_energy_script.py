@@ -20,7 +20,7 @@ print(f"({A_i}, {Z_i}) --> ({A_f}, {Z_f}) + (4, 2)\n" +
       f"--Q-Value: {Q} MeV \n")
 
 # Computes Q-Value of symmetric fission decay for nuclei that adhere to the SEMF
-[A_i, Z_i] = [212, 84]
+[A_i, Z_i] = [238, 92]
 Q = nf.NuclearMass(A_i, Z_i) - 2*nf.NuclearMass(A_i/2, Z_i/2)
-print(f"({A_i}, {Z_i}) --> ({A_f/2}, {Z_f/2}) + ({A_f/2}, {Z_f/2})\n" +
+print(f"({A_i}, {Z_i}) --> ({A_i/2}, {Z_i/2}) + ({A_i/2}, {Z_i/2})\n" +
       f"--Q-Value: {Q} MeV \n")
